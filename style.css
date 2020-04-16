@@ -1,0 +1,114 @@
+body {
+    font-size: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(245, 245, 245);
+}
+h1{
+    font-size: 2rem;
+    
+}
+#booksTable {
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(212, 206, 204);
+    max-width: 100vw;
+    min-width: 500px;
+    height: auto;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px;
+
+
+}
+#titleBar{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    height: 2rem;
+
+}
+#barTitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+}
+#barAuthor{
+    display: flex;
+    width: 35%;
+    justify-content: center;
+    align-items: center;
+}
+#barPages{
+    display: flex;
+    width: 10%;
+    justify-content: center;
+    align-items: center;
+}
+#barRead{
+    display: flex;
+    width: 10%;
+    justify-content: center;
+    align-items: center;
+}
+.bookRow {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    border: 1px solid black;
+    max-width: ;
+    height: 2rem;
+    background-color: rgb(228, 228, 228);
+}
+.rowTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+}
+.rowAuthor {
+    display: flex;
+    width: 35%;
+    justify-content: center;
+    align-items: center;
+    border-left: 1px solid rgb(138, 182, 184);
+    
+}
+.rowPages {
+    display: flex;
+    width: 10%;
+    justify-content: center;
+    align-items: center;
+    border-left: 1px solid rgb(138, 182, 184);
+    
+}
+.rowRead {
+    display: flex;
+    width: 10%;
+    justify-content: center;
+    align-items: center;
+    border-left: 1px solid rgb(138, 182, 184);
+}
+#inputForm{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height:500px;
+    padding: 20px;
+    background-color: crimson;
+    
+
+}
+.inputLabels{
+    padding-top: 1rem;
+    font-size: 1rem;
+}
+#submit{
+    margin: 1rem;
+    width: 5rem;
+    height: 2rem;
+}
